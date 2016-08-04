@@ -38,7 +38,7 @@
       - { name: docker-compose }
       - { name: maven }
       - { name: gradle }
-      - { name: tomcat7 }
+      - { name: tomcat }
     homebrew_cask_packages:
       - { name: alfred }
       - { name: adobe-reader }
@@ -59,15 +59,15 @@
       - { name: dropbox }
       - { name: google-cloud-sdk }
       - { name: bettertouchtool }
-      # テキスト派閥のための全部入れ
-      - { name: emacs-mac }
       - { name: macvim }
-      - { name: sublime-text3 }
+      - { name: sublime-text }
       - { name: atom }
       - { name: zoomus }
       - { name: mysqlworkbench }
       - { name: evernote }
       - { name: google-chrome }
+      - { name: eclipse-platform }
+      - { name: emacs }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
