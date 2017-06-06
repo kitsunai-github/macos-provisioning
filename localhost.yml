@@ -35,7 +35,6 @@
       - { name: redis }
       - { name: mercurial }
       - { name: tmux }
-      - { name: docker-compose }
       - { name: maven }
       - { name: gradle }
       - { name: tomcat }
@@ -47,27 +46,21 @@
       - { name: skype }
       - { name: slack }
       - { name: sourcetree }
-      - { name: flux }
       - { name: intellij-idea }
-      - { name: vagrant }
-      - { name: virtualbox }
       - { name: gas-mask }
       - { name: caffeine }
       - { name: google-chrome }
-      - { name: google-drive }
       - { name: google-japanese-ime }
       - { name: dropbox }
       - { name: google-cloud-sdk }
       - { name: bettertouchtool }
-      - { name: macvim }
-      - { name: sublime-text }
       - { name: atom }
       - { name: zoomus }
       - { name: mysqlworkbench }
       - { name: evernote }
       - { name: google-chrome }
       - { name: eclipse-platform }
-      - { name: emacs }
+      - { name: docker }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
