@@ -24,7 +24,6 @@
       - { name: ctags }
       - { name: tree }
       - { name: jq }
-      - { name: go }
       - { name: peco }
       - { name: hub }
       - { name: tig }
@@ -38,6 +37,18 @@
       - { name: maven }
       - { name: gradle }
       - { name: tomcat }
+      - { name: gauge }
+      - { name: go }
+      - { name: goenv }
+      - { name: glide }
+      - { name: hugo }
+      - { name: chromedriver }
+      - { name: node }
+      - { name: nodebrew }
+      - { name: yarn }
+      - { name: kubernetes-helm }
+      - { name: kubernetes-cli }
+      - { name: nkf }
     homebrew_cask_packages:
       - { name: alfred }
       - { name: adobe-reader }
@@ -61,6 +72,10 @@
       - { name: google-chrome }
       - { name: eclipse-platform }
       - { name: docker }
+      - { name: xmind }
+      - { name: intellij-idea }
+      - { name: goland }
+      - { name: webstorm }
 
   tasks:
     - name: homebrew の tap リポジトリを追加
